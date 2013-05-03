@@ -1,0 +1,88 @@
+<% if !flash[:notice].blank? %>
+	<div>
+		<%= flash[:notice] %>
+	</div>
+<% end %>
+
+<br />
+<h1>winofy</h1>
+
+<br />
+<span style="padding-left:20px">&nbsp;</span>
+<%= pluralize(@bottles.size, 'wine') %> >> 
+<%= link_to 'add one more', new_bottle_path %>
+<br />
+
+<!--<span style="padding-left:20px">&nbsp;</span>
+<%= link_to('Bottle ID #25', {:action => 'show', :id => 25}) %>
+<br />
+<span style="padding-left:20px">&nbsp;</span>
+<%= params.inspect %> -->
+
+<br /><br />
+<table>
+  <tr class="tableheader">
+	<th>View</th>
+    <th>Bin</th>
+	<th>Loc</th>
+	<th>Winery</th>
+    <th>Name</th>
+    <th>Style</th>
+    <th>Vntg.</th>
+    <th>Price</th>
+    <th>1st Var</th>
+    <th>2nd Var</th>
+    <th>3rd Var</th>
+	<th>Appellation</th>
+    <th>AVA / AOC</th>
+    <th>State / Reg.</th>
+    <th>Country</th>
+    <th>RP</th>
+    <th>WS</th>
+    <th>Cases</th>
+    <th>Alc</th>
+    <th>Label</th>
+	<th>Profile</th>
+	<th>Del</th>
+  </tr>
+
+<% @bottles.each do |bottle| %>
+
+  <tr>
+	<td class="show"><%= link_to 'V', bottle %></td>
+    <td class="bin"><%= bottle.bin %></td>
+	<td class="loc"><%= bottle.loc %></td>
+	<td class="name"><%= bottle.name %></td>
+    <td class="winery"><%= bottle.winery %></td>
+    <td class="styletype"><%= bottle.style_type %></td>
+    <td class="vintage"><%= bottle.vintage %></td>
+    <td class="price">$<%= bottle.price %></td>
+    <td class="mainvar"><%= bottle.main_varietal %></td>
+    <td class="secvar"><%= bottle.second_varietal %></td>
+    <td class="thirdvar"><%= bottle.third_varietal %></td>
+    <td class="appellation"><%= bottle.appellation %></td>
+    <td class="subreg"><%= bottle.sub_region %></td>
+    <td class="mainreg"><%= bottle.main_region %></td>
+    <td class="country"><%= bottle.country %></td>
+    <td class="rp"><%= bottle.rp %></td>
+    <td class="ws"><%= bottle.ws %></td>
+    <td class="cases"><%= bottle.cases %></td>
+    <td class="alc"><%= bottle.alcohol %></td>
+    <td class="photo"><%= bottle.photo_path %></td>
+    <td class="profile"><%= bottle.profile %></td>
+  <td class="destroy"><%= link_to 'D', bottle, method: :delete, data: { confirm: 'Are you sure you want to destroy this bottle?' } %></td>
+    </tr>
+<% end %>
+</table>
+
+<br />
+<div style="margin-left:10px; margin-top:20px">
+<h2>Import a CSV file</h2>
+<br />
+<%= form_tag import_bottles_path, :multipart => true do %>
+	<%= file_field_tag :file %>
+	<br /><br />
+	<%= submit_tag " Import CSV File " %>
+<% end %>
+<br />
+</div>

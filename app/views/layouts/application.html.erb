@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Winofy</title>
+  
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+
+  <style>
+  * {margin: 0; padding: 0}
+  
+ 
+/*	light pink #F1F0FF
+	red: #AA0114
+	black: #000
+	purple: #8C489F
+	dark purple: #443266  
+*/
+  	
+	body {background-color:#000; color:#F1F0FF}
+	p {font-size:100%}
+	h1 {color:#C3C3E5; font-size:300%; font-family:Times-New-Roman, Georgia, serif; padding:20px}
+	b {display:inline-block; min-width:140px}
+	div.wrapper {margin-top:0px; margin-left:10px}
+	div.wrapper p {line-height: 100%; margin: 0px 0px 10px 0px}
+	p#headernav {background-color:#443266; padding:5px; padding-left:10px; font-size:90%; margin:0px; border-bottom:thin solid #443266; box-shadow: 0px 2px 2px #fff}
+	.headernav {position:fixed; width:100%}
+	ul {line-height:170%; margin-bottom:15px; list-style-type: square}
+	li {list-style-type: square}
+	.notice {padding:10px 0px}
+	#headmargin {margin-top:25px}
+
+	a {color:#F1F0FF}
+	a:link {color:#F1F0FF; text-decoration:none}
+	a:visited {color:#F1F0FF}
+	a:hover {color:#F1F0FF; text-decoration:underline; background-color:#443266}
+	a:active {}
+	
+	span.redlink a {color:#FFFF00; font-style:italic}
+	span.redlink a:link {color:#FFFF00; text-decoration:none}
+	span.redlink a:visited {color:#FFFF00}
+	span.redlink a:hover {color:#F1F0FF; text-decoration:underline}
+	span.redlink a:active {}
+	
+	table {text-align:left}
+	
+	th {min-width:50px; background-color:#443266; text-align:center; border:thin solid #666;}
+	th.profile {text-align:left; height:30px}
+	
+	tr {background-color:#000; height:50px}
+	tr:hover {background:#111; color:#F1F0FF}
+	tr.tableheader {height:20px}
+	.big {font-size:100%}
+	.bigger {font-size:120%}
+	.biggest {font-size:200%}
+	.bold {font-weight:bold}
+	.bottompad {padding-bottom:10px}
+	.bottompad20 {padding-bottom:20px}
+	.ital {font-style:italic}
+	
+	td {border:thin solid #333; padding: 5px 10px}
+	td.bin {min-width:60px; text-align:center}
+	td.loc {min-width:60px; text-align:center}
+	td.name {min-width:100px}
+	td.winery {min-width:100px}
+	td.styletype {min-width:100px}
+	td.mainvar {min-width:100px}
+	td.appellation {min-width:100px}
+	td.subreg {min-width:100px}
+	td.mainreg {min-width:100px}
+	td.country {min-width:100px}
+	td.vintage {min-width:60px; text-align:center}
+	td.price {min-width:60px; text-align:center}
+	td.secvar {min-width:100px}
+	td.thirdvar {min-width:100px}
+	td.rp {min-width:30px; text-align:center}
+	td.ws {min-width:30px; text-align:center}
+	td.cases {min-width:50px; text-align:center}
+	td.alc {min-width:30px; text-align:center}
+	td.profile {min-width:800px; line-height:200%}
+	td.show {min-width:10px; text-align:center}
+	td.edit {min-width:10px; text-align:center}
+	td.destroy {min-width:10px; text-align:center}
+	
+</style>
+
+</head>
+<body style="background-color:#000; color:#eee">
+
+<%= yield %>
+
+</body>
+</html>

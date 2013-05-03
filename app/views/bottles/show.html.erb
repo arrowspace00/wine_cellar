@@ -1,0 +1,90 @@
+<div class="headernav">
+	<p class="bottompad" id="headernav">
+		<%= link_to("< Previous", @bottle.previous) %> | 
+		<%= link_to("Next >", @bottle.next) %>
+	</p>
+</div>
+
+<div class="wrapper">
+
+<p id="notice" class="notice"><%= notice %></p>
+
+<p class="" id="headmargin">
+	Bin #<%= @bottle.bin %><% unless @bottle.loc.blank? %> | Loc: <%= @bottle.loc %><% end %>
+</p>
+<p class="bottompad"><span class="redlink"><%= link_to ' edit ', edit_bottle_path(@bottle) %></span></p>
+
+<p class="bigger bold ">
+	<% unless @bottle.vintage.blank? %><%= @bottle.vintage %><% end %>
+	<% unless @bottle.name.blank? %><%= @bottle.name %><% end %>
+</p>
+
+<% unless @bottle.winery.blank? %>
+	<p class="big bold">
+		<%= @bottle.winery %>
+	</p>
+<% end %>
+
+<% unless @bottle.style_type.blank? %>
+	<p class="big bold bottompad">
+		<%= @bottle.style_type %>
+	</p>
+<% end %>
+
+<% if @bottle.has_photo? %>
+	<p class="bottompad">
+		<%= image_tag @bottle.photo_path %>
+	</p>
+	<% else %>
+<% end %>
+
+<ul class="varietalshow ital bottompad">
+	<li><%= @bottle.main_varietal %></li>
+	<% unless @bottle.second_varietal.blank? %><li><%= @bottle.second_varietal %></li><% end %>
+	<% unless @bottle.third_varietal.blank? %><li><%= @bottle.third_varietal %></li><% end %>	
+</ul>
+	
+<p>
+	<% unless @bottle.appellation.blank? %><%= @bottle.appellation %><% end %>
+</p>
+
+<p>
+	<% unless @bottle.sub_region.blank? %><%= @bottle.sub_region %><% end %>
+</p>
+
+<p class="bottompad20">
+	<% unless @bottle.main_region.blank? %><%= @bottle.main_region %>, <% end %>
+	<% unless @bottle.country.blank? %><%= @bottle.country %><% end %>
+</p>
+
+<% unless @bottle.alcohol.blank? %>
+	<p>Alc: <%= @bottle.alcohol %>%</p>
+<% end %>
+
+<% unless @bottle.price.blank? %>
+	<p class="biggest bottompad20">$<%= @bottle.price %></p>
+<% end %>
+
+<% unless @bottle.cases.blank? %>
+	<p class="bottompad"><%= @bottle.cases %> cases produced</p>
+<% end %>
+
+<% unless @bottle.rp.blank? %>
+	<p>RP: <%= @bottle.rp %></p>
+<% end %>
+
+<% unless @bottle.ws.blank? %>
+	<p>WS: <%= @bottle.ws %></p>
+<% end %>
+
+<% unless @bottle.profile.blank? %>
+	<p style="line-height:150%; max-width:380px"><br /><%= @bottle.profile %></p>
+<% end %>
+
+<p class="bottompad">
+</p><br />
+
+<p>
+<%= link_to '<< Back to Cellar', bottles_path %>
+</p>
+</div>
