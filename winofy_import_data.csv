@@ -1,0 +1,235 @@
+bin,name,winery,style_type,main_varietal,appellation,sub_region,main_region,country,vintage,price,second_varietal,third_varietal,rp,ws,cases,alcohol,profile
+1001,Krug,Grand Cuvee,Brut,,,Reims,Champagne,France,NV,335,,,,,,,
+1002,Deutz,Cuvee William Deutz,Brut,,,Ay,Champagne,France,1998,281,,,,,,,
+1003,Veuve Cliquot Ponsardin,La Grande Dame,,,,Reims,Champagne,France,1998,273,,,,,,,
+1004,Dom Perignon,,,,,Eperney,Champagne,France,2003,239,,,,,,,
+1005,PerrierJouet,Fleur de Champagne,,,,Eperney,Champagne,France,2003,235,,,,,,,
+1006,Bollinger,La Grande Annee,,,,Ay,Champagne,France,2002,203,,,,,,,
+1007,Veuve Cliquot Ponsardin,Yellow Label,Brut,,,Reims,Champagne,France,NV,128,,,,,,,
+1008,Moet & Chandon,Rose Imperial,Brut,,,Eperney,Champagne,France,NV,120,,,,,,,
+1009,Taittinger,La Francaise,Brut,,,Reims,Champagne,France,NV,96,,,,,,,
+1010,Schramsburg,,Brut Rose,,,Napa Valley,Napa,California,2009,95,,,,,,,
+1011,G.H. Mumm,Cordon Rouge,Brut,,,Reims,Champagne,France,NV,90,,,,,,,
+1012,Moet & Chandon,Imperial,Extra Dry,,,Eperney,Champagne,France,NV,89,,,,,,,
+1013,Schramsburg,Blanc de Blanc,,,,Napa Valley,Napa,California,2007,82,,,,,,,
+1014,Nicolas Feuillatte,,Brut,,,Eperney,Champagne,France,NV,69,,,,,,,
+1015,Lucien Albrecht,Cremant de Alsace,Brut Rose,Pinot Noir,,Alsace AOC,Alsace,France,NV,52,,,,,,,
+1016,Castello del Poggio,Moscato d'Asti,,Moscato,,Asti,Piedmont,Italy,NV,43,,,,,,,
+1021,Louis Jadot,,,,BeaujolaisVillages,Beaujolais,Burgundy,France,2010,30,,,,,,,
+1022,LaboureRoi,Maximum,,,Cote de Nuits,Cote d'Or,Burgundy,France,2007,43,,,,,,,
+1023,Joseph Drouhin,,,,Cote de Beaune,Cote d'Or,Burgundy,France,2009,55,,,,,,,
+1024,Louis Jadot,,,,Pommard,Cote d'Or,Burgundy,France,2006,88,,,,,,,
+1025,Louis Jadot,Gevrey Chambertin,,,Cote de Nuits,Cote d'Or,Burgundy,France,2009,93,,,,,,,
+1026,Vincent Girardin,Renardes,,,Cote de Beaune,Cote d'Or,Burgundy,France,2005,130,,,,,,,
+1041,MaconLugny,Les Charmes,,,Cave de Lugny,Maconnais,Burgundy,France,2011,45,,,,,,,
+1042,Domaine Laroche,,,,,Chablis,Burgundy,France,2009,58,,,,,,,
+1043,Louis Jadot,,,,Pouilly Fuisse,Maconnais,Burgundy,France,2010,68,,,,,,,
+1044,Louis Latour,Puligny Montrachet,,,Cote de Beaune,Cote d'Or,Burgundy,France,2009,110,,,,,,,
+1045,Louis Jadot,Meursault,,,Cote de Beaune,Cote d'Or,Burgundy,France,2009,112,,,,,,,
+4711,Gundlach Bundschu,Rhinefarm,,,,,Sonoma,California,2007,65,,,,,,,
+4712,Beringer,Bancroft Ranch,,,,Howell Mountain,Napa County,California,2003,100,,,,,,,
+4713,Pahlmeyer,,,,,,Napa County,California,2008,144,,,,,,,
+7001,Louis Roederer,Cristal,Brut,Pinot Noir,,Reims,Champagne,France,2004,431,cy,,97,93,,,"Light, bright gold. Spicy citrus and orchard fruit aromas are complemented by chalk, white flowers and a touch of smokiness. Taut, linear lemon and orange rind flavors give way to deeper pear in the midpalate and pick up notes of honeysuckle and toasted grain with air. Still very young but shows excellent promise. Finishes with good mineral cut and sappy persistence."
+7002,Nicolas Feuillatte,Palmes d'Or,Grand Cuvee Brut,Pinot Noir,Epernay,,Champagne,France,1997,255,cy,,,91,,,"Mixed aromas of toasted grains, caramel and beer. Sweet and doughy with vanilla, malt and tart citrus. Lengthy finish with a mix of brioche, citrus and baked apple."
+7003,Billecart Salmon,,Brut Rose,Pinot Noir,Ay,,Champagne,France,NV,180,cy,pm,,92,,,"Persistent mousse, with fine bubbles rising slowly. Pale salmon pink in color, with a shade of gold. A nose of red fruits and fresh pear. Delicate fruit on the palate, elegant, and showing great finesse."
+7004,Bollinger,Special Cuvee,Brut,Pinot Noir,Ay,,Champagne,France,NV,120,cy,pm,,93,,,"Vivid yellow.  Poached pear, singed orange and buttered toast on the fragrant nose.  Broad and fleshy, with very good depth to its ripe orchard fruit and honey flavors.  A zesty note of citrus pith adds lift and a refreshingly bitter edge to the long, gently toasty finish."
+7005,Louis Roederer,,Brut Premier,Pinot Noir,Reims,,Champagne,France,NV,95,cy,pm,92,90,,,"Light yellow. Bright, highpitched aromas of orange zest, ginger, white flowers and white pepper. Racy and focused, with sappy citrus and orchard fruit flavors picking up smokiness and a touch of peach pit with air. Shows good energy on the refreshingly brisk, linear, long finish."
+7006,Nicolas Feuillatte,,Brut Rose,Pinot Noir,Epernay,,Champagne,France,NV,84,pm,cy,,91,,,"Bright pink with a frothy mousse. Fresh strawberry and raspberry on the nose, with a gentle floral quality adding interest. Round and sappy on the palate, with fresh red berry flavors and a gentle texture. "
+7011,Strong Arms,,,Shiraz,,,South Australia,Australia,2008,28,,,,,,,
+7012,Marquis Philips,,,Cabernet Sauvignon,,,McLaren Vale,Australia,2007,40,,,,,,,
+7013,Yangarra Estate,Cadenzia,,Rhone,,,McLaren Vale,Australia,2006,52,,,,,,,
+7014,Greg Norman,,,Shiraz,,Limestone Coast,South Australia,Australia,2003,55,,,,,,,
+7015,Mollydooker,The Maitre D',,Cabernet Sauvignon,,Langhorne Creek,South Australia,Australia,2009,56,,,,,,,
+7016,Mollydooker,The Boxer,,Shiraz,,,South Australia,Australia,2009,56,,,,,,,
+7017,Rosemount,Traditional,,Cabernet Sauvignon,,,South Australia,Australia,2008,56,mlt,,,,,,
+7018,Penfolds,Bin 389,,Cabernet Sauvignon,,,South Australia,Australia,2007,75,shi,,,,,,
+7019,Leeuwin,Art Series,,Cabernet Sauvignon,,Margaret River,Western Australia,Australia,2006,84,,,,,,,
+7020,Amisfield,,,Pinot Noir,,,Central Otago,New Zealand,2006,85,,,,,,,
+7021,Penfolds,Grange,,Shiraz,,,,Australia,2003,405,,,,,,,
+7030,Cave B Estate Winery,,,Semillon,,,Columbia Valley,Washington,2009,42,,,,,,,
+7031,Maison Bleue,Notrie Vie,,Viognier,,Yakima Valley,Columbia Valley,Washington,2008,48,,,,,,,
+7032,Buty,,,Semillon,,,Columbia Valley,Washington,2010,50,"sb,musc",,,,,,
+7033,Brian Carter,Oriana,,Roussanne,,Yakima Valley,Columbia Valley,Washington,2009,51,"rie,vio",,,,,,
+7034,Cote Bonneville,DuBrul,,Riesling,,Yakima Valley,Columbia Valley,Washington,2011,53,,,,,,,
+7035,DeLille,Chaleur Estate,,Sauvignon Blanc,,,Columbia Valley,Washington,2010,69,sem,,,,,,
+7036,Mellisoni,45 Degrees,,Riesling,,Lake Chelan,Columbia Valley,Washington,2010,69,gew,,,,,,
+7041,Les Princes Abbes,,,Pinot Blanc,,Schlumberger,Alsace,France,2004,38,,,,,,,
+7042,Trimbach,,,Gewurztraminer,Alsace AOC,Ammerschwihr,Alsace,France,2005,45,,,90,,,,"Gewurztraminer is without a doubt the most distinctive wine from Trimbach. The variety's pronounced fragrance of rose, lychee and spice introduces the rich and often powerful taste adopted around the world as the perfect accompaniment to spicy food. The 2005 Gewurztraminer is dry, with good levels of natural alcohol and plenty of appealing acidity  the Trimbach family's signature."
+7043,Domaine Zind Humbrecht,Pinot d'Alsace,,Pinot Blanc,,,Alsace,France,2007,59,pb,,89,88,,,"(mostly Auxerrois Blanc) Pale color. Excellent lift to the aromas of orange, lemon and smoke. Dry and firm, with bright acidity framing the citrus and white peach flavors. Spicy, lingering finish."
+7044,Pierre Sparr,,,Pinot Gris,,Mambourg,Alsace,France,2007,65,,,,,,,
+7051,Estancia,Pinnacles Ranches,,Chardonnay,,,Monterey,California,2009,30,,,,,,,
+7052,Cambria,Catherine's Vineyard,,Chardonnay,,,Santa Maria Valley,California,2008,40,,,,,,,
+7053,Chateau St. Jean,,,Chardonnay,,,Alexander Valley,California,2008,42,,,,,,,
+7054,Bethel Heights,Estate,,Chardonnay,,,Willamette Valley,Oregon,2007,55,,,,,,,
+7055,Rodney Strong,Reserve,,Chardonnay,,Chalk Hill,Sonoma,California,2009,60,,,,,,,
+7056,Kunde,,,Chardonnay,,,Sonoma,California,2009,65,,,,,,,
+7058,Silver,Unoaked,,Chardonnay,,Santa Lucia Highlands,Monterey,California,2006,75,,,,,,,
+7059,Hartford Court,Four Hearts,,Chardonnay,,Russian River Valley,Sonoma,California,2009,75,,,,,,,
+7060,Stonestreet,,,Chardonnay,,Alexander Valley,Sonoma,California,2007,77,,,,,,,
+7061,Aubert,Ritchie Vineyard,,Chardonnay,,Sonoma Coast,Sonoma,California,2007,140,,,,,,,
+7062,Peter Michael,La Carriere,,Chardonnay,,,Sonoma,California,2006,155,,,,,,,
+7063,Lange,Freedom Hill,,Chardonnay,,,Willamette Valley,Oregon,2007,60,,,,,,,
+7066,Pepi,,,,,,,California,2009,28,,,,,,,
+7067,Matanzas Creek,,,,,,Sonoma,California,2010,35,,,,,,,
+7071,Merryvale,Starmont,,Sauvignon Blanc,,,Napa County,California,2009,28,,,,,,,
+7072,Domaine Serene,Cote Sud,,Chardonnay,,,Willamette Valley,Oregon,2007,52,,,,,,,
+7073,Opus One,,,Proprietary Blend,,,Napa County,California,2005,184,,,,,,,
+7075,Chateau Fonbadet,Cru Bourgeois (Superieur),,Cabernet Sauvignon,Pauillac,Haut Medoc,Bordeaux,France,2007,80,mlt,pv,,,,,
+7076,Chateau Pibran,Cru Bourgeois,,Cabernet Sauvignon,Pauillac,Haut Medoc,Bordeaux,France,2008,85,mlt,pv,,,,,
+7077,Chateau Vignot,Grand Cru,,Merlot,St. Emilion,Libournais,Bordeaux,France,2006,97,cf,cs,,,,,"Jess Jackson's Bordeaux project. Intense red fruits, soft tannins, creamy, toasty oak and a long persistence (that comes in increasing waves of enjoyment). Nicely balanced."
+7078,Chateau Talbot,Grand Cru Classe 4th Growth,,Cabernet Sauvignon,St. Julien,Haut Medoc,Bordeaux,France,2005,157,mlt,pv,,,,,"3% cf; Tannic, tight and still a touch okay, this is soft and approachable at a young age for Talbot. Licorice, earth, cassis, blackberry, smoke and coffee aromas lead to a fresh, round, dark berry filled finish."
+7101,Castello d'Albola,,,Sangiovese,,Chianti Classico,Tuscany,Italy,2007,34,,,,,,,
+7102,Conte Brandolini,Vistorta,,Merlot,,,Friuli Venezia Giulia,Italy,2003,45,,,,,,,
+7103,Sella & Mosca,Marchese di Villamarina,,Cabernet Sauvignon,,,Sardinia,Italy,2003,85,,,,,,,
+7104,Castello Romitorio,Romito Del Romitorio,,Sangiovese,,,Sant' Antimo,Italy,2004,97,cs,,,,,,
+7105,Cabreo,Il Borgo,,,,,Tuscany,Italy,2004,103,,,,,,,
+7106,Mastroberardino,Radici,Taurasi,Anglianico,,,Taurasi,Italy,2004,115,,,,,,,
+7107,Tenuta dell'Ornellaia,Ornellaia,Super Tuscan,Cabernet Sauvignon,Bolgheri DOC,Castagneto Carducci,Tuscany,Italy,2005,248,,,,,,,"Tenuta dell'Ornellaia was established by Marchese Lodovico Antinori of the Antinori family. The property is adjacent to Tenuta San Guido, producer of Sassicaia which is considered the seminal ""Super Tuscan""."
+7108,Gaja,Darmagi,Barbaresco,Cabernet Sauvignon,,Langhe DOC,Piedmont,Italy,2001,312,mlt,cf,,,,,Almost black in color; excellent fruit with strong cassis flavors. The impressive power on the palate carries through to the long finish; persistent soft tannins.
+7109,Gaja,Sperss,Barolo,Nebbiolo,,Langhe DOC,Piedmont,Italy,1998,332,,,,,,," Lovely cherry notes on the notes, light violet, very elegant and balanced. No cooked notes here, pure and balanced. On the palate it is very much alive and post decanting the tannins became silky but still vibrant."
+7151,Bodega Juan Gil,,,Monastrell,,,Jumilla,Spain,2007,39,,,,87,,,"It has a very dark cherry color with purple tones. In the nose it has powerful aromas of red berries, toasted and smoked notes from their aging in the oak barriques. It has good structure with ripe and sweet tannins. In the mouth it is very long, and with a perfect balance between fruit, alcohol and the oak tones, which make it very pleasant and easy to drink."
+7152,Bodegas Volver,Tarima Hill,,Monastrell,,,Alicante D.O.,Spain,2009,40,,,92,,,,"Exhibits deep garnet color with flashes of violet and a bouquet of dark red cherries and leather. On the palate, the wine achieves its full potential, offering notes of black berries, plums, and licorice with an elegant but persistent finish."
+7153,Bodegas Triton,Triton,,Tinto de Toro,Villanueva de Campean,Toro,Castilla y Leon,Spain,2008,52,,,90,,,,"Gil family; D.O. should be Toro instead of Castille y Leon; property lines got mixed up, but soil is same as Toro D.O.; prephylloxera vines!!"
+7154,Bodega Numanthia,Termes,,Tempranillo,,Toro,Castilla y Leon,Spain,2009,60,,,,,,,"This wine perfectly expresses the Toro region. Bright cherryred in color with light purple tones. The aroma is very elegant and lively aromas, rich and complex. Fresh, fruity notes (black fruits, raspberry, dark sherry), nicely integrated with spices, tobacco & toasted aromas (vanilla, chocolate, cinnamon). The palate has a silky texture, concentrated, well structured and very elegant. The finish is long and complex, with spices, tobacco, raspberries and blackberries notes."
+7155,Marques de Grinon,,,Petite Verdot,Montes de Toledo,Dominio de Valdepusa,Castilla La Mancha,Spain,2003,72,,,,,,,
+7157,Bodegas Roda,Roda Reserva,,Tempranillo,,La Rioja Alta,Rioja,Spain,2002,264,gar,grac,,,1000,,"The nose opens up with a wack of complexity: raspberries, mulberries, earthy undergrowth, and coffee.  Full bodied to start with, in time it comes down a notch to revel the classic Roda smoothness, balance and plush tannins.  There is no doubting where this comes from, Rioja in the mouth with a mix of raspberry, mulberry and the Rioja undergrowth character.  Earth and spice appear with airtime.  The balance is impeccable: acid, tannin, wood and fruit are all in the right place."
+7158,Bodegas Roda,Roda II Reserva,,Tempranillo,,La Rioja Alta,Rioja,Spain,1999,334,gar,grac,89,88,,,
+7201,Natura,,Organic,Carignan,,,Colchagua,Chile,2010,27,,,,,,,
+7202,Los Vascos,Domaine Baron de Rothschild,,Cabernet Sauvignon,,,Colchagua,Chile,2010,36,,,,,,,
+7203,Terrazas de los Andes,Reserva,,Malbec,,,Mendoza,Argentina,2009,38,,,,,,,
+7204,Chateau Maris,,,Syrah,,,Sud de France,France,2005,73,,,,,,,
+7205,Orin Swift,The Prisoner,,Zinfandel,,,Napa County,California,2010,83,cs,syr,,,,,
+7206,Stag's Leap Winery,Ne Cede Malis,Reserve,Petite Syrah,,,Napa County,California,2008,117,,,,,,,
+7207,Jarvis,,,Cabernet Franc,,,Napa County,California,2003,120,,,,,,,
+7221,Obsidian Ridge Vineyard,Obsidian Ridge,,Cabernet Sauvignon,(north end of Mayacamas),Red Hills,Lake County,California,2005,75,,,,90,,,"Primary aromas of cedar and olive provide contrast to the dark chocolate and blackberry on the palate. The wine is rich and peppery and lush in black currant flavors, with beautifully sculpted, ripe, chewy tannins."
+7222,Trinchero Family,Lewelling Vineyard,,Cabernet Sauvignon,St. Helena,Napa,North Coast AVA,California,2002,88,,,,,,,
+7223,Heitz Cellar,,,Cabernet Sauvignon,St. Helena,Napa,North Coast AVA,California,2006,95,,,,,,,"Full of the kinds of fruit and herbal flavors that typifies cabernet sauvignon at its bestcassis, black cherry, hints of tobacco, minerals and vanilla, with smooth tannins leading to a very long finish. Combines sour cherry, herb, mineral and cedar in a wellbalanced, complex, approachable manner. Fullbodied, showing touches of maturity. Three years in oak barrels."
+7224,Groth,,,Cabernet Sauvignon,Oakville,Napa,North Coast AVA,California,2008,105,,,,,,,"Dazzling. Easily the best Groth Cabernet in many years, dry, fullbodied and crazily rich in blackberries, cherries, tobacco and new oak. The ripe, sweet fruit is held in check by brisk acidity and fi rm tannins, resulting in an exciting tension. "
+7225,Jordan Vineyard & Winery,,,Cabernet Sauvignon,Alexander Valley,Sonoma County,North Coast AVA,California,2007,110,,,,,,,
+7226,Scribe,Outpost East,,Cabernet Sauvignon,Atlas Peak,Napa,North Coast AVA,California,2004,120,,,,,,,
+7227,Mt. Brave,,,Cabernet Sauvignon,Mt. Veeder,Napa,North Coast AVA,California,2008,128,,,,,,,"Look for classic Mt. Veeder minerality accenting concentrated blue fruits and brambly aromas and flavors. The 2008 is full in the mouth, with firm, structured tannins and naturally balanced acidity."
+7228,Freemark Abbey,Bosche Vineyard,,Cabernet Sauvignon,Rutherford,Napa,North Coast AVA,California,2003,150,mlt,,,,2500,,"Two years in French oak; The color of this wine is very dark ruby. The aroma has layers of depth, hinting of dark cherry, black currant, blackberry and cassis. These forward fruit components in the aroma are further complexed with a hint of juniper berry and mincemeat pie. The bouquet is reminiscent of dark chocolate, cedar, cinnamon, and clove. With flavor that is a quite pleasant dark cherry dominance, the finish is very long and complimented by mature, smooth tannins. "
+7229,Darioush,Signature,,Cabernet Sauvignon,Napa Valley,Napa,North Coast AVA,California,2008,160,mlt,mbc,,,7000,,"cf3%;  Endowed with a sturdy core of earth, espresso and dark chocolate balanced by vibrant black fruits and savory layers of lavender and sage."
+7230,Anakota,Helena Montana Vineyard,,Cabernet Sauvignon,Knights Valley,Sonoma County,North Coast AVA,California,2002,172,,,93,,,,
+7231,Freemark Abbey,Sycamore Vineyard,,Cabernet Sauvignon,Rutherford,Napa,North Coast AVA,California,1995,186,,,,89,,,"Still vibrant color, dark ruby and garnet hue with no sign of bricking whatsoever. A meaty and herbal overtone with welldeveloped and sophisticated bouquet of steak, black pepper and ginseng, accompanied by cedar, tobacco, espresso and spice, revealing beautiful aromas of black currant, black cherry, licorice with just a little jamminess on the nose. Very well balanced and complex nose with good heat and intensity at the back end. Fullbodied and viscous, this wine shows off some beautiful blackberry, cherry, butter scotch and plum on the attack, supported by a structure of very ripe and silky tannin with the acidity still fresh. Great length, finishing with velvety tannin surrounding the nice plum fruit with cedar, graphite, Asian spice, Chinese herbs and just a hint of mint."
+7232,Freemark Abbey,Sycamore Vineyard,,Cabernet Sauvignon,Rutherford,Napa,North Coast AVA,California,1990,178,,,,90,,,
+7233,Duckhorn,Monitor Ledge Vineyard,,Cabernet Sauvignon,Napa Valley,Napa,North Coast AVA,California,2008,180,pv,,91,92,,,"This is an extraordinarily ripe, flashy Cabernet Sauvignon, one of Duckhorn's new red wines that is among the most impressive in years. The wine is densely packed in sweet red and black currant fruit, chocolate and licorice flavors, wrapped into firm tannins, with a bonedry finish. Winemaker: Bill Nancarrow"
+7234,Karl Lawrence,,,Cabernet Sauvignon,Napa Valley,Napa,North Coast AVA,California,2004,209,,,,,,,
+7235,Chappellet,Pritchard Hill Estate,,Cabernet Sauvignon,Napa Valley,Napa,North Coast AVA,California,2005,215,pv,mbc,,96,,,"The wine's concentrated nose balances sweet berry and plum fruit with smoky black tea, dark chocolate and fresh coffee aromas. The aromatics segue into mouthcoasting currant, cherry, licorice and oak spice flavors. Hints of petit verdot and malbec add complexity to this already structure and robust red."
+7236,Dunn,,,Cabernet Sauvignon,Howell Mountain,Napa,North Coast AVA,California,2003,220,,,94,,,,"Dark ruby, tight and dusty on the nose with cassis, graphite and black fruits, dark, sweet and impressively concentrated palate with densely packed flavors of kirsch, currant and minerals, finegrained tannins on the long, dark and complex finish."
+7237,Ridge,Monte Bello,,Cabernet Sauvignon,San Francisco Bay,Santa Cruz Mountains,Central Coast AVA,California,2005,253,mlt,pv,97,,,,"cb2%; Deep ruby. Explosively perfumed nose offers a profound bouquet of ripe cherry, blackcurrant, yellow rose, Asian spices and vanilla bean; you could use this for incense. Deep and sweet but remarkably precise, offering powerful dark berry and kirsch flavors supported by substantial, velvety tannins. The fruit plows through the finish with superb energy, depth and clarity, fully absorbing the tannins. A big but wonderfully balanced example of Monte Bello, and sure to reward extended cellaring."
+7238,Ridge,Monte Bello,,Cabernet Sauvignon,San Francisco Bay,Santa Cruz Mountains,Central Coast AVA,California,1996,385,mlt,pv,,,,,"Prototypical cassis, cedar, and cigar box, with a range of red fruits to spare. It's massive on the nose, but it ratchets everything back down once it's in the mouth, with supercool earthy notes taking over. In fact, ""supercool"" seems like a good overall description: there's no heat whatsoever, the tannins and acid do their bit but only in the background, and the whole thing is just sleek and balanced. A sublime experience!"
+7239,Ridge,Monte Bello,,Cabernet Sauvignon,San Francisco Bay,Santa Cruz Mountains,Central Coast AVA,California,1992,385,mlt,pv,,,,,"A beautiful classy bouquet of redcurrant, leather, cedar, and graphite introduce this fine wine. On the palate, she is medium full in body with great concentration to the flavors of redcurrants, berries, and cedar. In addition, there is great structure here, with excellent sophisticated tannins and medium high acidity. A graceful beauty of elegance, class and sophistication. Drinking beautifully!"
+7240,Kapcsandy,State Lane Vineyard,,Cabernet Sauvignon,Yountville,Napa,North Coast AVA,California,2005,294,mlt,cf,94,91,,,"Aged 20 months in new French oak. It exhibits incredible refinement, dark, medium to fullbodied flavors (earth, black currants, sweet cherries, licorice, truffles, and cedar), beautiful ripeness and purity, and a long, silky finish with no hard edges. "
+7241,Harlan Estate,,,Cabernet Sauvignon,Napa Valley,Napa,North Coast AVA,California,2004,760,mlt,cf,98,98,1800,,"Renowned winemaker Bob Levy. Very deep garnetblack colour with a purple rim. Though still very youthful and muted, this vintage is already subtly revealing a wide array of aromas including blackberry tart, cedar, violets, truffles, liquorice and all spice. In the mouth however this is no shrinking violet  the 2004 is a big, concentrated and highly structured wine with somewhat impenetrable, tightly grained tannins and medium to high acid supporting its rich weight. Very, very long finish displaying hints of savoury earthiness and that signature minerality that appears to surface in better years."
+7301,Benziger,Tribute,,Cabernet Sauvignon,Sonoma Mountain,Sonoma County,North Coast AVA,California,2005,131,cf,mlt,,,,,"pv3%; blackberry, nutmeg, plum, black licorice, tar, dark chocolate and a sweet earthiness. The wine has a rich, but finely textured entry. Its tannins are soft and polished. With each sip, the wine holds the palate in a velvety grip. The finish is long, with lingering soft tannins and acids in complete harmony."
+7302,Arrowood,Reserve Speciale,,,,Sonoma County,North Coast AVA,California,2002,170,,,93,,,,
+7303,Beaulieu Vineyard,Georges de Latour,Private Reserve,,Napa Valley,Napa,North Coast AVA,California,2008,187,,,93,93,,,"A dense ruby/purple color along with terrific structure, lots of creme de cassis, minerality, beautiful purity of black currants and cherries, a judicious touch of oak, and a fullbodied, structural profile that is almost Bordeauxlike."
+7304,Ramey,Jericho Canyon,,Cabernet Sauvignon,Napa Valley,Napa,North Coast AVA,California,2004,195,mlt,cf,94,,1730,,"An inky dark ruby/purple color, a wonderfully sweet nose of espresso roast, fudge, blackberry, and cassis with a hint of incense and smoke. The wine is fullbodied, broadly flavored, opulent, and voluptuous."
+7311,Robert Hall,Hall Ranch,,Cabernet Sauvignon,,,Paso Robles,California,2005,65,cf,mlt,,,,,"mbc2%; elegant aromas of black currant, cassis and ripe plum, complemented by intriguing earthy nuances of cedar and chocolate. The color is deep ruby red, dense, and reflects the intensity of this vintage, the vineyard, and the careful selection of our finest lots. On the palate the wine shows exceptional depth of flavor with firm but velvety tannins."
+7312,Archipel,,,Cabernet Sauvignon,,Sonoma/Napa,North Coast,California,2002,75,mlt,cf,93,,,,"Vibrant black fruit with floral and spice notes. Rich, round, and full bodied. Archipel is the French word for Archipelago, an string of islands rising above the sea. World acclaimed winemaker Pierre Seillan selected only those mountain peak vineyards in Napa and Sonoma that, on a foggy morning, sit above the clouds like a archipelago island sits upon the misty sea."
+7313,Terlato,Angel's Peak,,Merlot,,Sonoma/Napa,North Coast,California,2003,90,cs,pv,,,,,"Dazzling aromas and an impeccable equilibrium, with perfumes of black fruit, tobacco and mocha. Rich and fullbodied."
+7314,Dominus Estate,Napanook,,Cabernet Sauvignon,Yountville,Napa,North Coast,California,2004,95,cf,mlt,91,,3600,,"pv?%; A strong effort, it offers a beautiful seductive nose of dried herbs, damp earth, sweet cherries, cedar, and spice box. Opulent, round, sexy, and delicious."
+7315,Justin,Isosceles,,Cabernet Sauvignon,,Paso Robles,Central Coast,California,2008,115,cf,mlt,93,,,,"pv1%; Balance and subtle fruit in this red with currants, spices and light coffee aromas and flavors. Silky textured finish. Hazelnut and fruit on the finish. Harmonious wine."
+7316,Araujo,Altagracia,,Cabernet Sauvignon,Calistoga,Napa,North Coast,California,2005,168,mlt,pv,91,,,,"Spicy, mineralladen, black fruit, damp forest, truffle, and crushed rockscented bouquet. With lovely fruit, medium to full body, and no hard edges, it is ideal for drinking over the next 1015 years."
+7317,Quintessa,,,Cabernet Sauvignon,,Napa Valley,North Coast,California,2008,225,mlt,cf,,,,,"car?%; Opens with fragrant plum and raspberry aromas with notes of cola, clove and white chocolate rounding out a delicate perfume. The wine enters the palate with sweet red currant and plum fruit flavors and a silky mouthfeel. As it coats the mouth, concentrated dark fruit flavors emerge with succulent balanced tannins, a subtle impression of wellintegrated oak and sweetness from the rich, ripe fruit. This vintage will gain complexity in the bottle and age for a decade and more."
+7319,Verite,La Muse,,Merlot,,Sonoma County,North Coast,California,2004,294,cf,cs,,87,,,"mbc3%; Dark ruby in color and offering polished, Bordeauxlike aromas of Bing cherry, plum a touch of blackberry and an array of spices. It is fullbodied on the palate and very complex, with notes of dark plums, cassis, adn cherry along with hints of leather, mineral, bright acidity and a lovely, wellcomposed finish."
+7321,Sloan,,,Cabernet Sauvignon,,Rutherford,North Coast,California,2004,864,,,96,96,400,,"Boasts scorched earth, roasted coffee, chocolatey black currant, and cedary nose, fullbodied flavors, sweet but high tannins, and a textured mouthfeel with tremendous complexity. It has an enormous upstream potential of 2030 years."
+7322,Treana,Red,,Cabernet Sauvignon,,Paso Robles,Central Coast,California,2009,61,syr,,,,,,"Deep ruby. Intense aromas of cherrycola, woodsmoke and dried flowers, accented by peppery spice. Juicy and focused, with very good clarity to its bitter cherry and blackcurrant flavors. Shows impressive vivacity on the finish, which clings with serious spicy tenacity."
+7351,Hudson Shah,,,Cabernet Sauvignon,,Rattlesnake Hills,Columbia Valley,Washington,2008,30,,,,,,,
+7352,Airfield Estates,Runway,,Cabernet Sauvignon,,Yakima Valley,Columbia Valley,Washington,2010,35,,,,,,,
+7353,Camaraderie,,,Merlot,,,Columbia Valley,Washington,2004,36,,,,,,,
+7354,Darby,Purple Haze,,Cabernet Sauvignon,,,Columbia Valley,Washington,2010,42,mbc,,,,,,
+7355,Gordon Brothers,,,Syrah,,,Columbia Valley,Washington,2006,42,,,,,,,
+7356,Camaraderie,,,Cabernet Sauvignon,,,,Washington,2004,45,,,,,,,
+7357,Fall Line,Artz Vineyard,,Cabernet Franc,,Red Mountain,Columbia Valley,Washington,2007,52,mlt,cs,,,,,
+7358,Gamache,,,Malbec,,,Columbia Valley,Washington,2008,55,,,,,,,
+7359,Cavu Cellars,,,Barbera,,Horse Heaven Hills,Columbia Valley,Washington,2010,60,,,,,,,
+7360,Gramercy Cellars,Lower East,,Cabernet Sauvignon,,,Columbia Valley,Washington,2009,60,,,,,,,
+7361,Stina's Cellar,,,Cabernet Sauvignon,,Yakima Valley,Columbia Valley,Washington,2007,62,,,,,,,
+7362,Dumas Station,Estate,,Merlot,,Walla Walla,Columbia Valley,Washington,2007,63,,,,,,,
+7363,Dunham,Reserve,,Syrah,,,Columbia Valley,Washington,2008,64,,,,,,,
+7364,Des Voigne Cellars,Montreux,,Syrah,,,Columbia Valley,Washington,2007,65,,,,,,,
+7365,Maghee Cellars,,,Merlot,,Rattlesnake Hills,Columbia Valley,Washington,2004,67,,,,,,,
+7366,Maryhill,,,Zinfandel,,,Columbia Valley,Washington,2005,69,,,,,,,
+7367,Seven Hills,Ciel du Cheval,,Proprietary Blend,,Red Mountain,Columbia Valley,Washington,2009,72,,,,,,,
+7368,Olsen Estates,,,Syrah,,,Columbia Valley,Washington,2006,75,,,,,,,
+7369,DeLille Cellars,D2,,,,Yakima Valley,Columbia Valley,Washington,2009,82,,,,,,,
+7370,Fidelitas,Optu,,Proprietary Blend,,,Columbia Valley,Washington,2008,83,,,,,,,
+7371,Va Piano,,,Cabernet Sauvignon,,,Columbia Valley,Washington,2008,83,,,,,,,
+7372,Walter Dacon,C'est Syrah Magnifique,,Syrah,,Yakima Valley,Columbia Valley,Washington,2006,85,,,,,,,
+7373,Olsen Estates,Rouge Des Coteaux,,Proprietary Blend,,,Columbia Valley,Washington,2006,89,,,,,,,
+7374,Baer,Arctos,,Proprietary Blend,,,Columbia Valley,Washington,08|09,92,,,,,,,
+7375,Cadence,Tapteil,,Cabernet Sauvignon,,Red Mountain,Columbia Valley,Washington,2008,94,mlt,mlt,,,,,
+7376,Mellisoni,Reserve,,Merlot,,Wahluke Slope,Columbia Valley,Washington,2006,94,,,,,,,
+7377,Betz,Besoleil,,Grenache,,,Columbia Valley,Washington,2009,95,Syrah,Mourvedre,,,,,
+7379,Reynvaan Family Vineyards,The Unnamed,,Syrah,,Walla Walla,Columbia Valley,Washington,2009,100,,,,,,,
+7380,Betz,Clos de Betz,,,,,Columbia Valley,Washington,2009,107,,,,,,,
+7381,Quilceda Creek,,,Cabernet Sauvignon,,,Columbia Valley,Washington,2008,108,,,,,,,
+7382,Sparkman,Kingpin,,Cabernet Sauvignon,,Red Mountain,Columbia Valley,Washington,2008,108,,,,,,,
+7383,Doyenne,Grand Ciel Vineyard,,Syrah,,Red Mountain,Columbia Valley,Washington,2008,111,,,,,,,
+7384,Betz,La Serenne,,Syrah,,,Columbia Valley,Washington,2008,114,,,,,,,
+7385,Barons V,,,Cabernet Sauvignon,,,Columbia Valley,Washington,2005,119,,,,,,,
+7386,Feather,,,Cabernet Sauvignon,,,Columbia Valley,Washington,2007,120,,,,,,,
+7387,Andrew Will,Sorella,,,,,Columbia Valley,Washington,2009,129,,,,,,,
+7388,Owen Roe,DuBrul Vineyard,,Cabernet Sauvignon,,Yakima Valley,Columbia Valley,Washington,2009,135,,,,,,,
+7389,Leonetti,,,Merlot,,,Columbia Valley,Washington,2009,139,,,,,,,
+7390,Betz,Pere de Famille,,Cabernet Sauvignon,,,Columbia Valley,Washington,2009,140,,,,,,,
+7391,DeLille,Chaleur Estate,,,,Yakima Valley,Columbia Valley,Washington,2008,148,,,,,,,
+7392,DeLille Cellars,Harrison Hill,,,,Yakima Valley,Columbia Valley,Washington,2008,148,,,,,,,
+7393,Leonetti,,,Cabernet Sauvignon,,Walla Walla Valley,Columbia Valley,Washington,2008,177,,,,,,,
+7395,Quilceda Creek,,,Cabernet Sauvignon,,,Columbia Valley,Washington,2008,274,,,,,,,
+7396,Leonetti,Reserve,,,,Walla Walla,Columbia Valley,Washington,2007,249,,,,,,,
+7425,Byron,,,Pinot Noir,,Santa Maria Valley,Central Coast,California,2010,40,,,,,11500,,"11 Months in 100% French Oak, 35% New; aromas of dark berry and cherry accented by hints of floral and mineral. The flavor profile has a core of dark berry and dark cherry with hints of earth and brown spices, backed by a smooth, silky and long finish."
+7426,Carlton Cellars,Cape Lookout,,Pinot Noir,,YamhillCarlton,Willamette Valley,Oregon,2008,62,,,,,,,"Translucent candy apple red. Strawberry, cherry, and earth on the nose. Medium bodied, strawberries, raspberries, smooth transitions, soft tannins, and a medium finish."
+7427,Lange,Reserve,,Pinot Noir,,,Willamette Valley,Oregon,2009,65,,,,,1500,,"100% French Oak, 30% new, 10 months; winemakers, Don Lange and Jesse Lange; A bright garnet hue, this wine expresses notes of strawberry jam, red cherry, black tea, dried rose petal, and a current of flint on the nose. An approachable, silky palate reveals lively red cherry, candied apple, pomegranate, and a hint of Amaretto. Finishing with soft barrel spice and mild tannins."
+7428,David Bruce,,,Pinot Noir,Sonoma Coast,Sonoma County,North Coast,California,2009,66,,,,,,,"This wine has an expression of red cherry, cranberry and plum coupled with lingering notes of nutmeg, cinnamon and a subtle hint of clove. On the palate, red cherry and plum dominate, with hints of vanilla, citrus, toasted pine nuts."
+7429,Sokol Blosser,Dundee Hills Cuvee,,Pinot Noir,,Dundee Hills,Willamette Valley,Oregon,2009,75,,,,90,,,"A core of distinct flavors and aromas  truffle, mushroom, leather, cherry, berry, violet and spice."
+7430,J. Christopher,Sandra Adele,,Pinot Noir,West Linn,Dundee Hills,Willamette Valley,Oregon,2008,78,,,,,,,The winery is owned by Jay Somers; who partnered with Ernst Loosen of Dr. loosen in Germany. Visit LoosenBrosUSA.com.
+7431,Hartford Court,Land's Edge Vineyards,,,Sonoma Coast,Sonoma County,North Coast,California,2007,80,,,,,1637,,"Complex aromas of cocoa powder, black cherries and black raspberries are balanced with crushed quartz and dried rose petal nuances. The layered flavors of perfectly ripe, dark berries and dried flowers transition to a silky elegant and lingering finish of coffee and minerals. 100% French oak, 45% new; time in oak: 15 months"
+7432,PennerAsh,,,,,,Willamette Valley,Oregon,2009,84,,,89,90,4800,,"Winemaker Lynn PennerAsh; Its darker fruit aromas are rather sultry, tending toward plum and black cherry, grounded with an earthy sweetness and hints of vanilla. All of this carries over to the palate, which seems to have a cherry cola quality without being cloying, as well as a lingering hint of tobacco and cocoa powder on the finish."
+7433,Belle Glos,Las Alturas,,,Santa Lucia Highlands,Monterrey,Central Coast,California,2009,90,,,,92,,,"Bold, rich and layered, with dense dark berry fruit that shows touches of spice, wild berry and blackberry and attractive floral scents. Fullbodied, this expands on the finish, where the flavors fan out."
+7434,EnRoute,Les Pommiers,,,,Russian River Valley,North Coast,California,2008,94,,,,,3275,,"Owned by Far Niente / Nickel & Nickel; Winemakers Gil and Beth Nickel; The fruit comes from Sonoma Coast, Green Valley and the Middle Reach. This is a very rich, ripe, flamboyant Pinot, made in the lush California style. It's flashy in complex tiers of raspberries, cherries, red currants, licorice, cocoa and cinnamon spice, yet is silky and dry."
+7435,Benton Lane,,,,,,,Oregon,2005,129,,,,,,,
+7436,Hartford Court,Arrendell Vineyard,,,,Russian River Valley,North Coast,California,2005,135,,,,,,,
+7437,Aubert,UV Vineyard,,,Sonoma Coast,Sonoma County,North Coast,California,2006,147,,,,,,,
+7438,Hanzell,,,,,,North Coast,California,04|05,165,,,,,,,
+7451,Qupe,Bien Nacido Hillside Estate,,Syrah,,,Santa Maria Valley,California,2005,74,,,,,,,
+7452,Arrowood,Saralee's Vineyard,,Syrah,,,Russian River Valley,California,2004,75,,,,,,,
+7453,Failla,Phoenix Ranch,,Syrah,,,Napa County,California,2005,92,,,,,,,
+7454,Shafer,Relentless,,Syrah,,,Napa County,California,2008,106,,,,,,,
+7475,Frog's Leap,,,,,,Napa County,California,2008,63,,,,,,,
+7476,Kunde,Century Vines,,,,,Sonoma,California,2006,70,,,,,,,
+7611,Regnard,,,Chardonnay,,Macon Lugny,Chablis,France,2005,53,,,,,,,"Floral and fruity aromas, with touches of lemon and butter. In the mouth, this fruity wine has a good balance between the typical fleshy Chardonnay and a pleasant freshness."
+7651,Vega Sindoa,Rose of Garnacha,,Garnacha,,,Navarra,Spain,2009,25,,,,,,,
+7652,Darby & Joan,,,Chardonnay,,,South Australia,Australia,2008,30,,,,,,,
+7653,La Cana,,,Albarino,,,Rias Baixas,Spain,2010,35,,,,,,,
+7654,Sutherland,,,Chardonnay,,Elgin,South Africa,Africa,2007,35,,,,,,,
+7655,King Estate,,,Pinot Gris,,,,Oregon,2011,46,,,,,,,
+7656,Penfolds,Bin 311,,Chardonnay,,Tumbarumba,New South Wales,Australia,2008,48,,,,,,,
+7657,Catena,,,Chardonnay,,,Mendoza,Argentina,2006,52,,,,,,,
+7658,Thelema,,,Chardonnay,,Stellenbosch,South Africa,Africa,2007,60,,,,,,,
+7675,Teruzzi & Puthod,,,,,Terre di Tufi,Tuscany,Italy,2009,45,,,,,,,
+7676,Cavit Collection,Zeveri,,Muller-Thurgau,,Trentino Superiore,Trentino Alto Adige,Italy,2004,62,,,,,,,
+7685,Chateau Fouquet,Domaine des Aubuisieres,Cuvee de Silex,Chenin Blanc,Vouvray,Touraine,Loire,France,2009,44,,,91,,,,"A nose of fresh quince, Persian melon, and honeysuckle leads to a palate subtly silken in texture, impeccably balanced, and with a prominently wet stone mineral character along with bittersweet hints of candied citrus rind."
+7686,Pascal Jolivet,,,Sauvignon Blanc,,Sancerre,Loire,France,2010,56,,,,90,,,"A bony and mouthwatering style, with lots of flint framing the lime, chive and fleur de sel notes. Shows great cut on the finish."
+7687,Domaine Huet,Clos du Bourg Sec,,Chenin Blanc,Vouvray,Touraine,Loire,France,2005,73,,,90,92,,,"Plump and juicy, with stone fruit, brown spice, humus, powdered ginger and acacia notes that run through the bright, welldefined finish, where the acidity kicks in. "
+7688,Alphonse Mellot,La Moussiere,,Sauvignon Blanc,,Sancerre,Loire,France,2011,84,,,,,,,"Obvious nose of pear with lime behind. Mouth nice, fresh with a bit of fat , but mostly mineral. Good balance."
+7711,Louis Jadot,,,Pinot Noir,Pommard,,Burgundy,France,2006,88,,,,,,,
+8001,Abeja,,,Cabernet Sauvignon,,,Columbia Valley,Washington,2008,180,,,,,,,
+8002,Woodward Canyon,Artist Series,,Cabernet Sauvignon,,,Columbia Valley,Washington,08|09,180,,,,,,,
+8003,Dunham,,,Cabernet Sauvignon,,,Columbia Valley,Washington,2005,184,,,,,,,
+8004,Faust,,,Cabernet Sauvignon,,,Napa County,California,2005,190,,,,,,,
+8005,Betz,,,Syrah,,,Columbia Valley,Washington,2005,210,,,,,,,
+8006,Saggi,,,Proprietary Blend,,,Columbia Valley,Washington,2007,210,,,,,,,
+8007,ChesterKidder,,,Proprietary Blend,,,Columbia Valley,Washington,2006,220,,,,,,,
+8008,Sequel,,,Syrah,,,Columbia Valley,Washington,2007,225,,,,,,,
+8009,Pedestal,Long Shadows,,Merlot,,,Columbia Valley,Washington,2007,240,,,,,,,
+8010,Pirouette,,,Proprietary Blend,,,Columbia Valley,Washington,2007,240,,,,,,,
+8011,Betz,Pere de Famille,,Cabernet Sauvignon,,,Columbia Valley,Washington,2009,265,,,,,,,
+8012,Heitz,Trailside,,Cabernet Sauvignon,,,Napa County,California,2005,300,,,,,,,
+8013,Two Hands,Lilly's Garden,,Shiraz,,,McLaren Vale,Australia,2005,305,,,,,,,
+8014,Quintessa,,,Proprietary Blend,,Rutherford,Napa County,California,2005,540,,,,,,,
+8015,Gaja,Darmagi,,Nebiollo,,Barbaresco,Piedmont,Italy,2001,770,,,,,,,
+8050,Kendall Jackson,Grand Reserve,,Chardonnay,,,,California,2004,195,,,,,,,
+8051,Kendall Jackson,Vintner's Reserve,,Cabernet Sauvignon,,,,California,2005,240,,,,,,,
