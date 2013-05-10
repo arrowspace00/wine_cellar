@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<h1><%= @restaurant.name %></h1>
+
+
+<h3>Selections</h3>
+<ul>
+	<% @restaurant.bottles.each do |bottle| %>
+		<li><%= link_to bottle.name, bottle_path(bottle) %></li>
+	<% end %>
+</ul>
+
+<p>
+  <b>Franchise:</b>
+  <%= @restaurant.franchise_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_restaurant_path(@restaurant) %> |
+<%= link_to 'Back', restaurants_path %>

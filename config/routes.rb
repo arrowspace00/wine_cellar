@@ -1,5 +1,8 @@
 WineCellar::Application.routes.draw do
 
+  resources :restaurants
+
+
 	resources :bottles do
 		collection { post :import }
 	end

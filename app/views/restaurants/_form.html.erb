@@ -1,0 +1,53 @@
+<%= form_for(@restaurant) do |f| %>
+  <% if @restaurant.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@restaurant.errors.count, "error") %> prohibited this restaurant from being saved:</h2>
+
+      <ul>
+      <% @restaurant.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :franchise_id %><br />
+    <%= f.number_field :franchise_id %>
+  </div>
+
+  <fieldset id="bottles">     
+    <span>
+      <h3>Bottles: (drag and drop to organize)</h3>
+      <fieldset>
+      <%= f.fields_for :selections do |selection| %>
+        <h5><%=selection.object.nil? ? "" : selection.object.bottle.name%></h5>
+        <% newField = selection.object.nil? %>
+        <div class="field<%#= newField ? " newField" : "" %>">
+          <%= selection.label :id %>
+          <%= fields_for :bottle do |bottle| %>
+            <%= bottle.select :id, options_from_collection_for_select(Bottle.all, :id, :name),
+          {:prompt => 'Specify a Connection'},{:class=> "selection"} %>
+          <% end %>
+          <%#= selection.text_field :bottle_id %>
+          <%#= selection.select :bottle_id, options_from_collection_for_select(Bottle.all, :id, :name),
+          {:prompt => 'Specify a Connection'},{:class=> "selection"} %> 
+        </div>
+      <% end %>
+      <span class="replicate button">[+] Add a SubCategory</span>
+      </fieldset>
+    </span>
+  </fieldset>
+
+  
+  
+  
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+
+<% end %>
