@@ -6,6 +6,6 @@ class Restaurant < ActiveRecord::Base
 
   has_many :bottles, :through => :selections, :order => 'priority ASC'
 
-  accepts_nested_attributes_for :selections
+  accepts_nested_attributes_for :selections, :allow_destroy => true
 
 end

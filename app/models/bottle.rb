@@ -4,7 +4,6 @@ class Bottle < ActiveRecord::Base
 	attr_accessible :alcohol, :appellation, :bin, :loc, :cases, :country, :main_region, :main_varietal, :name, :photo, :price, 
 		:profile, :rp, :second_varietal, :style_type, :sub_region, :third_varietal, :vintage, :winery, :ws
 
-
 	has_many :selections
 
 	has_many :restaurants, :through => :selections

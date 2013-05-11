@@ -24,15 +24,12 @@
       <h3>Selections: (drag and drop to organize)</h3>   
       <span>   
         <%= f.fields_for :selections do |s| %>
-          <% new_field = s.object.bottle.nil? %>
-          <div class="field<%= s.object.new_record? ? ' new_selection': '' %>" data-index="<%= @restaurant.selections.length-1 %>">
-            <% unless new_field %>
-              <h3><%= s.object.bottle.name %></h3>
-            <% else%>
-              <h3>new field</h3>
-            <% end %>
+          <% new_field = s.object.new_record? %>
+          <div class="field<%= new_field ? ' new_selection': '' %>" data-index="<%= @restaurant.selections.length-1 %>">
             <%= s.hidden_field :priority %> 
-            <%= s.select :bottle_id, options_from_collection_for_select(Bottle.order('name ASC'), :id, :full_name, s.object.bottle_id), :prompt => "make a selection" %>     
+            <%= s.select :bottle_id, options_from_collection_for_select(Bottle.order('name ASC'), :id, :full_name, s.object.bottle_id), :prompt => "make a selection" %>    
+            <%= !new_field ? s.label(:_destroy,"remove") : '' %>
+            <%= !new_field ? s.check_box(:_destroy) : '' %> 
           </div>         
         <% end %>      
     </span>
