@@ -36,6 +36,10 @@ class Bottle < ActiveRecord::Base
 		end
 	end
 
+	def full_name
+		"#{name} #{winery} #{vintage}"
+	end
+
 	
 	# after the bottle has been written to the database, 
 	# deal with writing any image data to the filesystem

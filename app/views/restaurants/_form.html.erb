@@ -24,21 +24,19 @@
     <span>
       <h3>Bottles: (drag and drop to organize)</h3>
       <fieldset>
-      <%= f.fields_for :selections do |selection| %>
-        <h5><%=selection.object.nil? ? "" : selection.object.bottle.name%></h5>
-        <% newField = selection.object.nil? %>
-        <div class="field<%#= newField ? " newField" : "" %>">
-          <%= selection.label :id %>
-          <%= fields_for :bottle do |bottle| %>
-            <%= bottle.select :id, options_from_collection_for_select(Bottle.all, :id, :name),
-          {:prompt => 'Specify a Connection'},{:class=> "selection"} %>
+      <%= f.fields_for :selections do |s| %>
+        <% new_field = s.object.bottle.nil? %>
+        <div class="field<%= s.object.new_record? ? ' new_selection': '' %>" data-index="<%= @restaurant.selections.length-1 %>">
+          <% unless new_field %>
+            <h3><%= s.object.bottle.name %></h3>
+          <% else%>
+            <h3>new field</h3>
           <% end %>
-          <%#= selection.text_field :bottle_id %>
-          <%#= selection.select :bottle_id, options_from_collection_for_select(Bottle.all, :id, :name),
-          {:prompt => 'Specify a Connection'},{:class=> "selection"} %> 
-        </div>
+          <%= s.label :priority %>  
+          <%= s.number_field :priority %> 
+          <%= s.select :bottle_id, options_from_collection_for_select(Bottle.order('name ASC'), :id, :full_name, s.object.bottle_id) %>              
       <% end %>
-      <span class="replicate button">[+] Add a SubCategory</span>
+      <span id="add_selection" class="replicate button">[+] Add a Bottle</span>
       </fieldset>
     </span>
   </fieldset>

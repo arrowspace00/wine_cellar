@@ -48,8 +48,9 @@ ActiveRecord::Schema.define(:version => 20130510002211) do
   create_table "selections", :force => true do |t|
     t.integer  "restaurant_id"
     t.integer  "bottle_id"
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
+    t.integer  "priority",      :default => 9999
+    t.datetime "created_at",                      :null => false
+    t.datetime "updated_at",                      :null => false
   end
 
 end

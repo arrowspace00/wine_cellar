@@ -36,6 +36,8 @@ class RestaurantsController < ApplicationController
   # GET /restaurants/1/edit
   def edit
     @restaurant = Restaurant.find(params[:id])
+    @restaurant.selections.build
+    @restaurant.bottles.build
   end
 
   # POST /restaurants
