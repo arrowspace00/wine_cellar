@@ -20,26 +20,26 @@
     <%= f.number_field :franchise_id %>
   </div>
 
-  <fieldset id="bottles">     
-    <span>
-      <h3>Bottles: (drag and drop to organize)</h3>
-      <fieldset>
-      <%= f.fields_for :selections do |s| %>
-        <% new_field = s.object.bottle.nil? %>
-        <div class="field<%= s.object.new_record? ? ' new_selection': '' %>" data-index="<%= @restaurant.selections.length-1 %>">
-          <% unless new_field %>
-            <h3><%= s.object.bottle.name %></h3>
-          <% else%>
-            <h3>new field</h3>
-          <% end %>
-          <%= s.label :priority %>  
-          <%= s.number_field :priority %> 
-          <%= s.select :bottle_id, options_from_collection_for_select(Bottle.order('name ASC'), :id, :full_name, s.object.bottle_id) %>              
-      <% end %>
-      <span id="add_selection" class="replicate button">[+] Add a Bottle</span>
-      </fieldset>
+  <fieldset id="selections"> 
+      <h3>Selections: (drag and drop to organize)</h3>   
+      <span>   
+        <%= f.fields_for :selections do |s| %>
+          <% new_field = s.object.bottle.nil? %>
+          <div class="field<%= s.object.new_record? ? ' new_selection': '' %>" data-index="<%= @restaurant.selections.length-1 %>">
+            <% unless new_field %>
+              <h3><%= s.object.bottle.name %></h3>
+            <% else%>
+              <h3>new field</h3>
+            <% end %>
+            <%= s.label :priority %>  
+            <%= s.number_field :priority %> 
+            <%= s.select :bottle_id, options_from_collection_for_select(Bottle.order('name ASC'), :id, :full_name, s.object.bottle_id) %>     
+          </div>         
+        <% end %>      
     </span>
+    <span id="add_selection" class="replicate button">[+] Add a Bottle</span>
   </fieldset>
+
 
   
   

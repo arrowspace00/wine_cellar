@@ -19,7 +19,7 @@ $.fn.disableEmptyFileInputsOnSubmit = (additionalSubmissionMethod) ->
 
 #================================= input cloning machine
 
-class @wineLib.classes.inputCloner
+class @wineLib.classes.input_cloner
 
 	constructor: (@stockField, @button) ->
 		console.log "cloner initializing...", @button.length
@@ -46,7 +46,7 @@ class @wineLib.classes.inputCloner
 
 #================================= drag/drop sorting support
 
-class @wineLib.classes.orderedCollection
+class @wineLib.classes.ordered_collection
 
 	constructor: (@house)->
 		@house.sortable stop: @updatePriorityFields

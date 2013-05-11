@@ -7,5 +7,7 @@
 
 #================================= cloners
 $ ->
-	new wineLib.classes.inputCloner $('.new_selection'), $('#add_selection')
+	new wineLib.classes.input_cloner $('.new_selection'), $('#add_selection')
+
+	new wineLib.classes.ordered_collection $ '#selections > span:first'
 
