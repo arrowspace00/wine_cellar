@@ -4,6 +4,9 @@ class Bottle < ActiveRecord::Base
 	attr_accessible :alcohol, :appellation, :bin, :loc, :cases, :country, :main_region, :main_varietal, :name, :photo, :price, 
 		:profile, :rp, :second_varietal, :style_type, :sub_region, :third_varietal, :vintage, :winery, :ws
 
+
+	has_many :selections
+
 	has_many :restaurants, :through => :selections
 
 	# Model Strengthened by Validation
@@ -18,8 +21,6 @@ class Bottle < ActiveRecord::Base
 		:greater_than => 999,
 		:less_than => 10000,
 		:message => "- Please enter a four-digit value between 1000-9999"
-
-	has_many :restaurants, :through => :selections
 	
 	def previous
 		Bottle.limit(1).order("id DESC").where("id < ?", id).first

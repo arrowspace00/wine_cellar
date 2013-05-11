@@ -31,9 +31,8 @@
             <% else%>
               <h3>new field</h3>
             <% end %>
-            <%= s.label :priority %>  
-            <%= s.number_field :priority %> 
-            <%= s.select :bottle_id, options_from_collection_for_select(Bottle.order('name ASC'), :id, :full_name, s.object.bottle_id) %>     
+            <%= s.hidden_field :priority %> 
+            <%= s.select :bottle_id, options_from_collection_for_select(Bottle.order('name ASC'), :id, :full_name, s.object.bottle_id), :prompt => "make a selection" %>     
           </div>         
         <% end %>      
     </span>

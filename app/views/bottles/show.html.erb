@@ -84,6 +84,16 @@
 <p class="bottompad">
 </p><br />
 
+<% if @bottle.restaurants.length > 0 %>
+	<h2>Served in</h2>
+	<ul>
+		<% @bottle.restaurants.each do |r| %>
+			<li><%= link_to r.name, restaurant_path(r.id) %></li>
+		<% end %>
+	</ul>
+<% end %>
+
+
 <p>
 <%= link_to '<< Back to Cellar', bottles_path %>
 </p>
