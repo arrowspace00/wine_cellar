@@ -11,3 +11,9 @@ $ ->
 
 	new wineLib.classes.ordered_collection $ '#selections > span:first'
 
+
+	removeUnspecifiedConnectionsAndVideos = ->
+		$('#selections select').each ->
+			$(this).parents(".field").remove() unless $(':selected',this).attr 'value'
+
+	$("form").disableEmptyFileInputsOnSubmit removeUnspecifiedConnectionsAndVideos
