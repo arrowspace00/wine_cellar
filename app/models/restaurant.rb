@@ -1,6 +1,6 @@
 class Restaurant < ActiveRecord::Base
   
-  attr_accessible :franchise_id, :name, :selections, :selections_attributes, :bottles, :bottles_attributes
+  attr_accessible :franchise_id, :name, :selections, :selections_attributes, :bottles, :bottles_attributes, :stickers, :stickers_attributes
 
   has_many :selections, :order => 'priority ASC'
 

@@ -29,7 +29,20 @@
             <%= s.hidden_field :priority %> 
             <%= s.select :bottle_id, options_from_collection_for_select(Bottle.order('name ASC'), :id, :full_name, s.object.bottle_id), :prompt => "make a selection" %>    
             <%= !new_field ? s.label(:_destroy,"remove") : '' %>
-            <%= !new_field ? s.check_box(:_destroy) : '' %> 
+            <%= !new_field ? s.check_box(:_destroy) : '' %>
+            
+            <%= s.fields_for :stickers do |sticker| %>
+              <%= sticker.label :name%>
+              <%= sticker.text_field :name %>
+
+              <%= sticker.label :description %>
+              <%= sticker.text_area :description %>
+
+              <%= sticker.label :info %>
+              <%= sticker.text_field :info %>
+
+            <% end %>
+
           </div>         
         <% end %>      
     </span>

@@ -26,6 +26,9 @@ class RestaurantsController < ApplicationController
   def new
     @restaurant = Restaurant.new
     @restaurant.selections.build
+    @restaurant.selections.each do |sel|
+      sel.stickers.build
+    end
     @restaurant.bottles.build
     respond_to do |format|
       format.html # new.html.erb

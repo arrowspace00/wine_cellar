@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130510002211) do
+ActiveRecord::Schema.define(:version => 20130513130326) do
 
   create_table "bottles", :force => true do |t|
     t.integer  "bin"
@@ -51,6 +51,16 @@ ActiveRecord::Schema.define(:version => 20130510002211) do
     t.integer  "priority",      :default => 9999
     t.datetime "created_at",                      :null => false
     t.datetime "updated_at",                      :null => false
+  end
+
+  create_table "stickers", :force => true do |t|
+    t.string   "name"
+    t.integer  "selection_id"
+    t.text     "description"
+    t.string   "info"
+    t.integer  "priority"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
   end
 
 end
