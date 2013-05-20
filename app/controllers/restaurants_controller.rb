@@ -41,6 +41,9 @@ class RestaurantsController < ApplicationController
     @restaurant = Restaurant.find(params[:id])
     @restaurant.selections.build
     @restaurant.bottles.build
+    @restaurant.selections.each do |sel|
+      sel.stickers.build
+    end
   end
 
   # POST /restaurants

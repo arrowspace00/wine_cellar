@@ -27,21 +27,43 @@
           <% new_field = s.object.new_record? %>
           <div class="field<%= new_field ? ' new_selection': '' %>" data-index="<%= @restaurant.selections.length-1 %>">
             <%= s.hidden_field :priority %> 
+            <%= s.label :bottle_id, "Wine Name" %>             
             <%= s.select :bottle_id, options_from_collection_for_select(Bottle.order('name ASC'), :id, :full_name, s.object.bottle_id), :prompt => "make a selection" %>    
             <%= !new_field ? s.label(:_destroy,"remove") : '' %>
             <%= !new_field ? s.check_box(:_destroy) : '' %>
+
+            <fieldset class="stickers">
+
+              <h3>Stickers:</h3>
+              <span>
+
+              <%= s.fields_for :stickers do |sticker| %>
+                <section class="field<%= sticker.object.new_record? == true ? ' new_sticker': '' %>" data-index="<%= s.object.stickers.length-1 %>">
+
+                  <div class="field">
+                    <%= sticker.label :name%>
+                    <%= sticker.text_field :name %>
+                  </div>         
+
+                  <div class="field">
+                    <%= sticker.label :description %>
+                    <%= sticker.text_area :description %>
+                  </div>         
+
+                  <div class="field">
+                    <%= sticker.label :info %>
+                    <%= sticker.text_field :info %>
+                  </div>  
+
+                </section>       
+
+              <% end %>
+              </span>
+              
+              <span class="add_sticker replicate button">[+] Add a Sticker</span>
+
+            </fieldset>
             
-            <%= s.fields_for :stickers do |sticker| %>
-              <%= sticker.label :name%>
-              <%= sticker.text_field :name %>
-
-              <%= sticker.label :description %>
-              <%= sticker.text_area :description %>
-
-              <%= sticker.label :info %>
-              <%= sticker.text_field :info %>
-
-            <% end %>
 
           </div>         
         <% end %>      

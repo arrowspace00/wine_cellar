@@ -38,6 +38,7 @@ class @wineLib.classes.input_cloner
 		$('label',newField).attr "for", newName
 		@currentIndex++
 		@lastAddedField = newField.show().insertAfter @allCurrentFields()
+		$(newField).trigger "replicate"
 
 	allCurrentFields : ->
 		@lastAddedField.add(@lastAddedField.siblings()).last()
